@@ -70,6 +70,13 @@ function EvenOdd(somma) {
 const pariDispari = EvenOdd(somma)
 
 
+// Dichiariamo chi ha vinto
+if (SceltaOdds === pariDispari) {
+  console.log(`Hai vinto! La somma ${somma} è ${pariDispari}. Il tuo numero: ${SceltaNumero}, numero PC: ${numeroPc}`);
+} else {
+  console.log(`Hai perso! La somma ${somma} è ${pariDispari}. Il tuo numero: ${SceltaNumero}, numero PC: ${numeroPc}`);
+}
+
 
 
 
