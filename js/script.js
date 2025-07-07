@@ -42,14 +42,20 @@ console.log('fa caldo')
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 // Dichiariamo chi ha vinto.
 
-// const PariDispari = prompt (`scegli pari o dispari`)
-// const SceltaNumero = prompt (`scegli un numero da 1 a 5`)
+// const SceltaOdds = prompt (`scegli pari o dispari`)
+const SceltaNumero = parseInt(prompt(`scegli un numero da 1 a 5`))
 
 function RandomNumberPc() {
-  return Math.floor(Math.random() * 5 +1)
+  return Math.floor(Math.random() * 5 +1 )
 }
 
-console.log(RandomNumberPc())
+const numeroPc = RandomNumberPc()
+
+let somma = SceltaNumero + numeroPc;
+
+
+console.log(somma)
+
 
 
 
