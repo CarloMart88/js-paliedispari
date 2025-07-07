@@ -40,6 +40,8 @@ if (parola.length >= 4 && parola.length % 2 === 0 && palindroma(parola) ) {
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 // Dichiariamo chi ha vinto.
 
+const PariDispari = prompt (`scegli pari o dispari`)
+const SceltaNumero = prompt (`scegli un numero da 1 a 5`)
 
 
 
