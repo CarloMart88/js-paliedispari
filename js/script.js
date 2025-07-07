@@ -23,6 +23,18 @@ function palindroma(text) {
 
 }
 
+// if per controllo finale 
+// ho aggiunto che la lunghezza della parola deve esser minimo di 4 lettere e che la lunghezza della parola deve esser pari (in quanto palindrome devono esserlo )
+if (parola.length >= 4 && parola.length % 2 === 0 && palindroma(parola) ) {
+  console.log( `la parola è palindroma `)
+
+}else {
+  console.log( `la parola non è palindroma `)
+}
+
+
+
+
 
 
 
