@@ -12,27 +12,27 @@ console.log('fa caldo')
 // Chiedere all’utente di inserire una parola
 
 
-// const parola = prompt('inserisci parola')
+const parola = prompt('inserisci parola')
 
 // // Creare una funzione per capire se la parola inserita è palindroma
 
 // // qui voglio che mi venga restituito il valore o true o false 
-// function palindroma(text) {
+function palindroma(text) {
 
-//   return text === text.split('').reverse().join('')
+  return text === text.split('').reverse().join('')
 
-// }
+}
 
 // if per controllo finale 
 // ho aggiunto che la lunghezza della parola deve esser minimo di 4 lettere e che la lunghezza della parola deve esser pari (in quanto palindrome devono esserlo )
 
 
-// if (parola.length >= 4 && parola.length % 2 === 0 && palindroma(parola) ) {
-//   console.log( `la parola è palindroma `)
+if (parola.length >= 4 && parola.length % 2 === 0 && palindroma(parola) ) {
+  console.log( `la parola è palindroma `)
 
-// }else {
-//   console.log( `la parola non è palindroma `)
-// }
+}else {
+  console.log( `la parola non è palindroma `)
+}
 
 
 // Pari e Dispari
