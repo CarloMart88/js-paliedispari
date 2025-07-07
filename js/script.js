@@ -11,9 +11,18 @@ console.log('fa caldo')
 
 // Chiedere all’utente di inserire una parola
 
+
 const parola = prompt('inserisci parola')
 
 // Creare una funzione per capire se la parola inserita è palindroma
+
+// qui voglio che mi venga restituito il valore o true o false 
+function palindroma(text) {
+
+  return text === text.split('').reverse().join('')
+
+}
+
 
 
 
